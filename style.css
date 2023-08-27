@@ -1,0 +1,134 @@
+/* Reset default browser styles */
+body, h1, h2, p, hr, form, button {
+    margin: 0;
+    padding: 0;
+}
+
+/* Background and global styles */
+body {
+    background-image: linear-gradient(rgba(12, 12, 17, 0.89), rgba(54, 54, 86, 0.89)), url(bg.jpg);
+    background-size: cover;
+    font-family: 'Wren', 'sans-serif'; /* Use Wren font */
+    color: #e7d8c9;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* Header styles */
+h1 {
+    margin-top: 30px;
+    font-size: 36px;
+    font-family: 'Bodoni Moda', serif;
+    
+    font-family: 'Lovers Quarrel', cursive,1;
+    text-decoration: none; 
+}
+
+/* Horizontal rules */
+hr.solid {
+    border-top: 0;
+    width: 50%;
+    margin: 20px auto;
+}
+
+hr.dashed {
+    border-top: 0;
+    width: 70%;
+    margin: 20px auto;
+}
+
+/* Subheader styles */
+h2 {
+    margin-top: 50px;
+    font-family: 'Bodoni Moda', serif;
+    font-family: 'Borel', cursive;
+    font-family: 'Love Light', cursive;
+    font-family: 'Lovers Quarrel', cursive;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Wren', 'sans-serif'; /* Use Wren font */
+    text-decoration: none;
+    font-size: 24px;
+}
+
+/* Form container */
+form {
+    max-width: 400px;
+    width: 90%;
+    padding: 20px;
+
+    border-radius: 10px;
+  
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+/* Input field container */
+.inputBox {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.inputBox input {
+    margin-left: 20px;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+}
+
+/* Email input container */
+.email {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.email input {
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+}
+
+/* Button container */
+.butt {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.butt button {
+    background-color: #85C441;
+    color: #e6ecf3;
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 5px 20px;
+    font-family: 'Wren', 'sans-serif'; /* Use Wren font */
+    text-decoration: none;
+    border: none;
+}
+
+/* Footer styles */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+}
+
+.footer a {
+    margin-left: 20px;
+}
+
+/* Spread the word paragraph */
+p {
+    color: aliceblue;
+    margin-top: 20px;
+}
+
+/* Copyright notice */
+.copyright p {
+    margin-top: 50px;
+    color: aliceblue;
+    text-align: center;
+}
